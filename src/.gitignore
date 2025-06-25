@@ -21,6 +21,5 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
-docker/dev/mysql/data/
-.idea/
+/docker/dev/mysql/
 /.DB_STORE
