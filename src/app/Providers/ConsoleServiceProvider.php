@@ -16,6 +16,6 @@ class ConsoleServiceProvider extends ServiceProvider
 
     public function boot(Schedule $schedule): void
     {
-        $schedule->command('app:deactivate-link-command')->everyMinute();
+        $schedule->command('app:deactivate-link-command')->everyThreeHours();
     }
 }
